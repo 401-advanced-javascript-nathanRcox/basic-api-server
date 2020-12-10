@@ -1,0 +1,29 @@
+{
+  "name": "basic-api-server",
+  "version": "1.0.0",
+  "description": "## Project: Express REST API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint **/*.js",
+    "test": "jest --coverage",
+    "test-watch": "jest --watchAll --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/401-advanced-javascript-nathanRcox/basic-api-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/401-advanced-javascript-nathanRcox/basic-api-server/issues"
+  },
+  "homepage": "https://github.com/401-advanced-javascript-nathanRcox/basic-api-server#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jest": "^26.6.3",
+    "supertest": "^6.0.1"
+  }
+}
